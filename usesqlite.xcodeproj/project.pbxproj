@@ -84,6 +84,9 @@
 		F21C64521855F86A00F9D5DE = {
 			isa = PBXGroup;
 			children = (
+				F21C64981855F95900F9D5DE /* models */,
+				F21C64971855F94E00F9D5DE /* controllers */,
+				F21C64961855F93800F9D5DE /* sqllitepersistentobject */,
 				F21C64641855F86A00F9D5DE /* usesqlite */,
 				F21C64861855F86A00F9D5DE /* usesqliteTests */,
 				F21C645D1855F86A00F9D5DE /* Frameworks */,
@@ -153,6 +156,27 @@
 				F21C64891855F86A00F9D5DE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F21C64961855F93800F9D5DE /* sqllitepersistentobject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = sqllitepersistentobject;
+			sourceTree = "<group>";
+		};
+		F21C64971855F94E00F9D5DE /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		F21C64981855F95900F9D5DE /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
