@@ -7,12 +7,27 @@
 //
 
 #import "AppDelegate.h"
+#import "Friend.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    Friend *friend = [[Friend alloc] init];
+    friend.name = @"windiors";
+    friend.age = 24;
+    friend.sex = @"男";
+    [friend save];
+    NSArray *friends = [Friend findByCriteria:@""];
+    for (Friend *f in friends) {
+        if (f) {
+            NSLog(@"name--%@",f.name);
+            NSLog(@"sex--%@",f.sex);
+            NSLog(@"age--%i",f.age);
+
+        }
+    }
     return YES;
 }
 							

@@ -22,22 +22,24 @@
 		F21C64831855F86A00F9D5DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21C64621855F86A00F9D5DE /* UIKit.framework */; };
 		F21C648B1855F86A00F9D5DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F21C64891855F86A00F9D5DE /* InfoPlist.strings */; };
 		F21C648D1855F86A00F9D5DE /* usesqliteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C648C1855F86A00F9D5DE /* usesqliteTests.m */; };
-		F21C64B91855F9A100F9D5DE /* NSData-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C649A1855F9A100F9D5DE /* NSData-SQLitePersistence.m */; };
-		F21C64BA1855F9A100F9D5DE /* NSDate-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C649C1855F9A100F9D5DE /* NSDate-SQLitePersistence.m */; };
-		F21C64BB1855F9A100F9D5DE /* NSMutableArray-MultipleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C649E1855F9A100F9D5DE /* NSMutableArray-MultipleSort.m */; };
-		F21C64BC1855F9A100F9D5DE /* NSMutableData-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64A01855F9A100F9D5DE /* NSMutableData-SQLitePersistence.m */; };
-		F21C64BD1855F9A100F9D5DE /* NSNumber-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64A21855F9A100F9D5DE /* NSNumber-SQLitePersistence.m */; };
+		F21C64B91855F9A100F9D5DE /* NSData-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C649A1855F9A100F9D5DE /* NSData-SQLitePersistence.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F21C64BA1855F9A100F9D5DE /* NSDate-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C649C1855F9A100F9D5DE /* NSDate-SQLitePersistence.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F21C64BB1855F9A100F9D5DE /* NSMutableArray-MultipleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C649E1855F9A100F9D5DE /* NSMutableArray-MultipleSort.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F21C64BC1855F9A100F9D5DE /* NSMutableData-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64A01855F9A100F9D5DE /* NSMutableData-SQLitePersistence.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F21C64BD1855F9A100F9D5DE /* NSNumber-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64A21855F9A100F9D5DE /* NSNumber-SQLitePersistence.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F21C64BE1855F9A100F9D5DE /* NSObject-ClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64A41855F9A100F9D5DE /* NSObject-ClassName.m */; };
-		F21C64BF1855F9A100F9D5DE /* NSObject-MissingKV.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64A61855F9A100F9D5DE /* NSObject-MissingKV.m */; };
-		F21C64C01855F9A100F9D5DE /* NSObject-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64A81855F9A100F9D5DE /* NSObject-SQLitePersistence.m */; };
-		F21C64C11855F9A100F9D5DE /* NSString-NumberStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64AA1855F9A100F9D5DE /* NSString-NumberStuff.m */; };
-		F21C64C21855F9A100F9D5DE /* NSString-SQLiteColumnName.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64AC1855F9A100F9D5DE /* NSString-SQLiteColumnName.m */; };
-		F21C64C31855F9A100F9D5DE /* NSString-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64AE1855F9A100F9D5DE /* NSString-SQLitePersistence.m */; };
-		F21C64C41855F9A100F9D5DE /* NSString-UppercaseFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64B01855F9A100F9D5DE /* NSString-UppercaseFirst.m */; };
-		F21C64C51855F9A100F9D5DE /* SQLiteInstanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64B21855F9A100F9D5DE /* SQLiteInstanceManager.m */; };
-		F21C64C61855F9A100F9D5DE /* SQLitePersistentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64B41855F9A100F9D5DE /* SQLitePersistentObject.m */; };
-		F21C64C71855F9A100F9D5DE /* UIColor-SQLitePersistentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64B61855F9A100F9D5DE /* UIColor-SQLitePersistentObject.m */; };
-		F21C64C81855F9A100F9D5DE /* UIImage-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64B81855F9A100F9D5DE /* UIImage-SQLitePersistence.m */; };
+		F21C64BF1855F9A100F9D5DE /* NSObject-MissingKV.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64A61855F9A100F9D5DE /* NSObject-MissingKV.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F21C64C01855F9A100F9D5DE /* NSObject-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64A81855F9A100F9D5DE /* NSObject-SQLitePersistence.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F21C64C11855F9A100F9D5DE /* NSString-NumberStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64AA1855F9A100F9D5DE /* NSString-NumberStuff.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F21C64C21855F9A100F9D5DE /* NSString-SQLiteColumnName.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64AC1855F9A100F9D5DE /* NSString-SQLiteColumnName.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F21C64C31855F9A100F9D5DE /* NSString-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64AE1855F9A100F9D5DE /* NSString-SQLitePersistence.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F21C64C41855F9A100F9D5DE /* NSString-UppercaseFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64B01855F9A100F9D5DE /* NSString-UppercaseFirst.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F21C64C51855F9A100F9D5DE /* SQLiteInstanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64B21855F9A100F9D5DE /* SQLiteInstanceManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F21C64C61855F9A100F9D5DE /* SQLitePersistentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64B41855F9A100F9D5DE /* SQLitePersistentObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F21C64C71855F9A100F9D5DE /* UIColor-SQLitePersistentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64B61855F9A100F9D5DE /* UIColor-SQLitePersistentObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F21C64C81855F9A100F9D5DE /* UIImage-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64B81855F9A100F9D5DE /* UIImage-SQLitePersistence.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F21C64CA1855FA0B00F9D5DE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F21C64C91855FA0B00F9D5DE /* libsqlite3.dylib */; };
+		F21C64CD1855FABA00F9D5DE /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C64CC1855FABA00F9D5DE /* Friend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +105,9 @@
 		F21C64B61855F9A100F9D5DE /* UIColor-SQLitePersistentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-SQLitePersistentObject.m"; sourceTree = "<group>"; };
 		F21C64B71855F9A100F9D5DE /* UIImage-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-SQLitePersistence.h"; sourceTree = "<group>"; };
 		F21C64B81855F9A100F9D5DE /* UIImage-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-SQLitePersistence.m"; sourceTree = "<group>"; };
+		F21C64C91855FA0B00F9D5DE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F21C64CB1855FABA00F9D5DE /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		F21C64CC1855FABA00F9D5DE /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21C64CA1855FA0B00F9D5DE /* libsqlite3.dylib in Frameworks */,
 				F21C64611855F86A00F9D5DE /* CoreGraphics.framework in Frameworks */,
 				F21C64631855F86A00F9D5DE /* UIKit.framework in Frameworks */,
 				F21C645F1855F86A00F9D5DE /* Foundation.framework in Frameworks */,
@@ -154,6 +160,7 @@
 		F21C645D1855F86A00F9D5DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F21C64C91855FA0B00F9D5DE /* libsqlite3.dylib */,
 				F21C645E1855F86A00F9D5DE /* Foundation.framework */,
 				F21C64601855F86A00F9D5DE /* CoreGraphics.framework */,
 				F21C64621855F86A00F9D5DE /* UIKit.framework */,
@@ -255,6 +262,8 @@
 		F21C64981855F95900F9D5DE /* models */ = {
 			isa = PBXGroup;
 			children = (
+				F21C64CB1855FABA00F9D5DE /* Friend.h */,
+				F21C64CC1855FABA00F9D5DE /* Friend.m */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -360,6 +369,7 @@
 				F21C64B91855F9A100F9D5DE /* NSData-SQLitePersistence.m in Sources */,
 				F21C64C31855F9A100F9D5DE /* NSString-SQLitePersistence.m in Sources */,
 				F21C64C81855F9A100F9D5DE /* UIImage-SQLitePersistence.m in Sources */,
+				F21C64CD1855FABA00F9D5DE /* Friend.m in Sources */,
 				F21C64781855F86A00F9D5DE /* ViewController.m in Sources */,
 				F21C64BC1855F9A100F9D5DE /* NSMutableData-SQLitePersistence.m in Sources */,
 				F21C64C51855F9A100F9D5DE /* SQLiteInstanceManager.m in Sources */,
